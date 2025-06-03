@@ -4,33 +4,38 @@
 # Managing Shared Dependencies
 
 <div class="mt-8">
-<h2>Fine-Tuning Shared Libraries:</h2>
+<h2>The Trade-off: Sharing vs Bundle Size</h2>
 
 ```typescript
-// Opt out of sharing for tree-shaking
+// Fine-tune what gets shared across your MFE apps
 shared: (name, config) => {
-  if (name === 'lodash') return false; // Bundle separately
-  return config; // Share by default
+  // Don't share lodash - enable tree-shaking instead
+  if (name === 'lodash') return false; 
+  
+  // Share React as singleton (required!)
+  if (name === 'react') return config;
+  
+  return config; // Share everything else by default
 }
 ```
 
 <div v-click class="mt-8 grid grid-cols-2 gap-4">
   <div class="p-4 border rounded">
-    <h3>When to Share</h3>
-    <ul>
-      <li>Common frameworks (Angular, React)</li>
-      <li>Shared state management</li>
-      <li>Core utilities</li>
-    </ul>
+    <h3>Result</h3>
+    <p>Each app bundles only the lodash functions it uses (5kb vs 100kb)</p>
   </div>
 
   <div class="p-4 border rounded">
-    <h3>When to Bundle</h3>
-    <ul>
-      <li>Large utilities (lodash)</li>
-      <li>Infrequently used modules</li>
-      <li>Version-sensitive packages</li>
-    </ul>
+    <h3>Documentation</h3>
+    <p><a href="https://nx.dev/concepts/module-federation/faster-builds-with-module-federation">Faster Builds with Module Federation</a></p>
   </div>
+</div>
+
+<div v-click class="mt-8 p-4 bg-blue-100 dark:bg-blue-900 rounded">
+  <h3>💡 When to Share vs Bundle</h3>
+  <ul>
+    <li>Share: Core frameworks, state management, singleton behavior needed</li>
+    <li>Bundle: Libraries with good tree-shaking (lodash, date-fns, utilities)</li>
+  </ul>
 </div>
 </div>
