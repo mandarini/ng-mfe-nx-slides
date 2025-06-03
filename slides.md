@@ -50,6 +50,10 @@ src: ./slides/07-benefits.md
 ---
 
 ---
+src: ./slides/36-cats-break-1.md
+---
+
+---
 src: ./slides/08-use-cases.md
 ---
 
@@ -75,6 +79,10 @@ src: ./slides/13-demo-setup-1.md
 
 ---
 src: ./slides/14-demo-setup-2.md
+---
+
+---
+src: ./slides/37-cats-break-2.md
 ---
 
 ---
@@ -115,6 +123,10 @@ src: ./slides/23-shared-libs.md
 
 ---
 src: ./slides/24-managing-deps.md
+---
+
+---
+src: ./slides/38-facepalm-moment.md
 ---
 
 ---
