@@ -22,6 +22,6 @@ css: unocss
 </div>
 
 <div class="pt-8">
-  <h4>Angular NYC</h4>
+  <h4>Angular NYC - Jun 3, 2025</h4>
   <p class="text-sm">Special Thanks: Colum Ferry & Leosvel Pérez Espinosa</p>
 </div>
