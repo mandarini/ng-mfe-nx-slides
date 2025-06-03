@@ -17,7 +17,6 @@
     <ul>
       <li>MFE relationships</li>
       <li>Shared dependencies</li>
-      <li>Build optimization opportunities</li>
     </ul>
   </div>
 
