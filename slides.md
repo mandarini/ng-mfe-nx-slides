@@ -1,4 +1,27 @@
 ---
+theme: default
+class: dark
+css: unocss
+style: |
+  .slidev-layout {
+    background: #0f1629 !important;
+    color: #e2e8f0 !important;
+  }
+  .dark .slidev-layout {
+    background: #0f1629 !important;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: #f1f5f9 !important; 
+  }
+  a {
+    color: #60a5fa !important;
+  }
+  a:hover {
+    color: #93c5fd !important;
+  }
+---
+
+---
 src: ./slides/01-title.md
 ---
 
