@@ -111,6 +111,10 @@ src: ./slides/27-production.md
 ---
 
 ---
+src: ./slides/27-hybrid.md
+---
+
+---
 src: ./slides/28-when-to-choose.md
 ---
 

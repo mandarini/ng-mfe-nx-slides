@@ -28,16 +28,6 @@
   </div>
 </div>
 
-<div v-click class="mt-8 p-4 bg-blue-100 dark:bg-blue-900 rounded">
-  <h3>⚡ Hybrid Approach</h3>
-  <p>Best of both worlds</p>
-  <ul>
-    <li>Team autonomy with coordination</li>
-    <li>Flexible release strategy</li>
-    <li>Optimized for scale</li>
-  </ul>
-</div>
-
 <div v-click class="mt-8 p-4 bg-green-100 dark:bg-green-900 rounded">
   <h3>💡 Pro Tip</h3>
   <p>Start with faster builds, evolve to independent deployments as needed</p>
