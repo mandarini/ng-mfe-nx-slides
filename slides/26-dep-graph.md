@@ -19,7 +19,5 @@
       <li>Shared dependencies</li>
     </ul>
   </div>
-
-
 </div>
 </div>
