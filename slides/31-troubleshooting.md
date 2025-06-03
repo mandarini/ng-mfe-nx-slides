@@ -6,10 +6,10 @@
 <div class="mt-8">
 <h2>Common Issues & Solutions:</h2>
 
-<div class="space-y-6">
+<div class="grid grid-cols-3 gap-6 mt-6">
   <div v-click class="p-4 border rounded">
     <h3>🔄 HMR Not Working</h3>
-    <ul>
+    <ul class="text-sm mt-2">
       <li>Check devRemotes flag</li>
       <li>Verify port configuration</li>
       <li>Clear browser cache</li>
@@ -18,7 +18,7 @@
 
   <div v-click class="p-4 border rounded">
     <h3>📦 Build Failures</h3>
-    <ul>
+    <ul class="text-sm mt-2">
       <li>Check dependency versions</li>
       <li>Verify module federation config</li>
       <li>Review shared dependencies</li>
@@ -27,7 +27,7 @@
 
   <div v-click class="p-4 border rounded">
     <h3>🔌 Remote Loading Issues</h3>
-    <ul>
+    <ul class="text-sm mt-2">
       <li>Check remote URLs</li>
       <li>Verify CORS settings</li>
       <li>Review network requests</li>

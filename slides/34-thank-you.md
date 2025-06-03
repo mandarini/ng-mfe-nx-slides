@@ -1,21 +1,28 @@
 ---
 theme: seriph
 background: https://source.unsplash.com/collection/94734566/1920x1080
-class: 'text-center'
+class: "text-center"
 ---
 
-# Thank You! 🙏
+# Thank You! 😺
 
-<div class="mt-12">
-  <h2>Questions?</h2>
-</div>
-
-<div v-click class="mt-12">
-  <h3>Stay Connected:</h3>
-  <div class="mt-4">
-    <p>Twitter: @psybercity</p>
-    <p>Blog: psyber.city</p>
-    <p>GitHub: @mandarini</p>
+<div v-click class="mt-12 grid grid-cols-2 gap-8 max-w-2xl mx-auto">
+  <div>
+    <h3>Stay Connected:</h3>
+    <div class="mt-4">
+      <p>Twitter: <a href="https://twitter.com/psybercity">@psybercity</a></p>
+      <p>Web: <a href="https://psyber.city">psyber.city</a></p>
+      <p>GitHub: <a href="https://github.com/mandarini">@mandarini</a></p>
+    </div>
+  </div>
+  
+  <div>
+    <h3>Nx:</h3>
+    <div class="mt-4">
+      <p>Twitter: <a href="https://twitter.com/NxDevTools">@NxDevTools</a></p>
+      <p>Web: <a href="https://nx.dev">nx.dev</a></p>
+      <p>GitHub: <a href="https://github.com/nrwl/nx">nrwl/nx</a></p>
+    </div>
   </div>
 </div>
 

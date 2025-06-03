@@ -22,7 +22,6 @@
     <ul>
       <li>Instant startup time</li>
       <li>Lightning-fast rebuilds</li>
-      <li>Smooth HMR experience</li>
     </ul>
   </div>
 </div>

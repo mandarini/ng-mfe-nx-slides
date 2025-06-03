@@ -6,7 +6,7 @@
 <div class="mt-8">
 <h2>Why This Approach Works:</h2>
 
-<div class="space-y-6">
+<div class="grid grid-cols-2 gap-6">
   <div v-click class="p-4 border rounded">
     <h3>1. Start Familiar</h3>
     <p>Use proven MFE generators and patterns</p>
@@ -17,7 +17,7 @@
     <p>One command conversion to Rspack</p>
   </div>
 
-  <div v-click class="p-4 border rounded">
+  <div v-click class="p-4 border rounded col-span-2">
     <h3>3. Keep Everything</h3>
     <p>Same APIs, faster builds, better DX</p>
   </div>

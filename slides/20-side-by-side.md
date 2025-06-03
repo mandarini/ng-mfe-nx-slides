@@ -10,7 +10,7 @@
 # Terminal 1: Webpack
 nx serve shell --devRemotes=myremote1
 
-# Terminal 2: Rspack  
+# Terminal 2: Rspack
 nx serve shell2
 ```
 

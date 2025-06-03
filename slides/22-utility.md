@@ -6,7 +6,7 @@
 <div class="mt-8">
 <h2>Nx Abstraction Benefits:</h2>
 
-<div class="space-y-6">
+<div class="grid grid-cols-2 gap-6">
   <div v-click class="p-4 border rounded">
     <h3>🔄 Automatic Sharing</h3>
     <p>All libraries shared as singletons by default</p>
