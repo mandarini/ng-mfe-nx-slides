@@ -23,5 +23,5 @@ css: unocss
 
 <div class="pt-8">
   <h4>Angular NYC - Jun 3, 2025</h4>
-  <p class="text-sm">Special Thanks: Colum Ferry</p>
+  <p class="text-sm">Special Thanks: <a href="https://github.com/coly010">Colum Ferry</a> | <a href="https://twitter.com/FerryColum">@FerryColum</a></p>
 </div>

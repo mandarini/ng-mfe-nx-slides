@@ -20,5 +20,6 @@ class: 'text-center'
 </div>
 
 <div v-click class="mt-12">
-  <p class="text-sm">Slides available at: <a href="https://github.com/mandarini/mf-rspack-talk">github.com/mandarini/mf-rspack-talk</a></p>
+  <p class="text-sm">Demo repo: <a href="https://github.com/mandarini/nyc-mfe-demo">github.com/mandarini/nyc-mfe-demo</a></p>
+  <p class="text-sm">Slides: <a href="https://github.com/mandarini/ng-mfe-nx-slides">github.com/mandarini/ng-mfe-nx-slides</a></p>
 </div>
