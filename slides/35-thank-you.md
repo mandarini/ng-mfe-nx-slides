@@ -15,7 +15,7 @@ class: "text-center"
   </div>
   
   <div>
-    <h3>Nx:</h3>
+    <h3>__</h3>
     <div class="mt-4">
       <p>Twitter: <a href="https://twitter.com/NxDevTools">@NxDevTools</a></p>
       <p>Web: <a href="https://nx.dev">nx.dev</a></p>
@@ -25,6 +25,6 @@ class: "text-center"
 </div>
 
 <div v-click class="mt-12">
-  <p class="text-sm">Demo repo: <a href="https://github.com/mandarini/nyc-mfe-demo">github.com/mandarini/nyc-mfe-demo</a></p>
-  <p class="text-sm">Slides: <a href="https://github.com/mandarini/ng-mfe-nx-slides">github.com/mandarini/ng-mfe-nx-slides</a></p>
+  <p class="text-lg">Demo repo: <a href="https://github.com/mandarini/nyc-mfe-demo">github.com/mandarini/nyc-mfe-demo</a></p>
+  <p class="text-xl">Slides: <a href="https://nx-nyc.netlify.app/">nx-nyc.netlify.app</a></p>
 </div>

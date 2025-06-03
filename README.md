@@ -1,8 +1,14 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Angular NYC: Nx MFE Rspack Demo
 
-[Edit on StackBlitz ⚡️](https://sli.dev/new)
+**From Zero Config to Lightning Fast Builds**
 
-To start the slide show:
+🎯 **Live Slides:** [nx-nyc.netlify.app](https://nx-nyc.netlify.app/)
+
+This presentation covers Module Federation with Nx and Rspack, demonstrating how to build micro-frontends from zero configuration to lightning-fast builds.
+
+## Development
+
+To run the slides locally:
 
 - `npm install`
 - `npm run dev`
