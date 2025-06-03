@@ -12,7 +12,7 @@ drawings:
 css: unocss
 ---
 
-# Nx ng MFE HMR rspack Demo - LOL Right?
+# Nx ng MFE HMR rspack - LOL Right?
 
 ## From Zero Config to Lightning Fast Builds
 
