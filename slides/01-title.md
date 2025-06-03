@@ -5,7 +5,7 @@ class: 'text-center'
 highlighter: shiki
 lineNumbers: false
 info: |
-  ## Angular NYC: Nx MFE + Rspack Demo
+  ## Angular NYC: Nx MFE Rspack Demo
   From Zero Config to Lightning Fast Builds
 drawings:
   persist: false
