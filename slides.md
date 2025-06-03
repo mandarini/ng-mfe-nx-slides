@@ -154,5 +154,9 @@ src: ./slides/33-resources.md
 ---
 
 ---
-src: ./slides/34-thank-you.md
+src: ./slides/34-event-promo.md
+---
+
+---
+src: ./slides/35-thank-you.md
 ---
