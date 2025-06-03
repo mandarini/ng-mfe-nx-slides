@@ -52,7 +52,7 @@ drawings:
 
 <div class="pt-12 flex justify-center items-center gap-12">
   <div class="flex items-center gap-2 bounce-logo">
-    <img src="/images/angular-logo.svg" alt="Angular" class="h-16 w-16" />
+    <img src="/images/angular-logo.png" alt="Angular" class="h-16 w-16" />
   </div>
   
   <div class="text-4xl">+</div>
