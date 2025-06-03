@@ -6,18 +6,23 @@
 <div class="mt-8">
 <h2>"Develop as a User" Philosophy</h2>
 
-<div v-click class="mt-8 space-y-4">
-  <p>View MFE as a <strong>single application</strong> where:</p>
-  
-  <ul class="space-y-2">
-    <li>Host = entry point</li>
-    <li>Remotes = modules fetched over-the-wire</li>
-    <li>Run <code>nx serve host</code> for full architecture</li>
-  </ul>
+<div class="mt-8">
+<h3>Think of your MFE as ONE application:</h3>
+<ul class="space-y-2">
+  <li>Host = entry point (like your main.ts)</li>
+  <li>Remotes = lazy-loaded modules (fetched over network)</li>
+  <li>Run <code>nx serve host</code> starts your <strong>entire application</strong></li>
+</ul>
 </div>
 
-<div v-click class="mt-12 p-4 bg-green-100 dark:bg-green-900 rounded">
-  <h3>💡 Pro Tip</h3>
-  <p>Focus on features, not infrastructure - Nx handles the complexity</p>
+<div v-click class="mt-8 p-4 bg-blue-100 dark:bg-blue-900 rounded">
+  <h3>💡 Not separate apps - one app with network boundaries</h3>
+  <p class="mt-2">
+    <em>"For both the best DX and most accurate development of a Module Federation architecture we recommend viewing it as a single application."</em>
+  </p>
+</div>
+
+<div v-click class="mt-8">
+<p>📖 <a href="https://nx.dev/concepts/module-federation/module-federation-and-nx">Module Federation and Nx</a> - "Develop as a User"</p>
 </div>
 </div>
