@@ -6,7 +6,7 @@
 <div class="mt-8">
 <h2>Deployment Strategies:</h2>
 
-<div class="space-y-6">
+<div class="grid grid-cols-2 gap-4 mt-6">
   <div v-click class="p-4 border rounded">
     <h3>🚀 Faster Builds</h3>
     <p>Deploy together, build separately</p>
@@ -26,15 +26,20 @@
       <li>Version management</li>
     </ul>
   </div>
+</div>
 
-  <div v-click class="p-4 border rounded">
-    <h3>⚡ Hybrid Approach</h3>
-    <p>Best of both worlds</p>
-    <ul>
-      <li>Team autonomy with coordination</li>
-      <li>Flexible release strategy</li>
-      <li>Optimized for scale</li>
-    </ul>
-  </div>
+<div v-click class="mt-8 p-4 bg-blue-100 dark:bg-blue-900 rounded">
+  <h3>⚡ Hybrid Approach</h3>
+  <p>Best of both worlds</p>
+  <ul>
+    <li>Team autonomy with coordination</li>
+    <li>Flexible release strategy</li>
+    <li>Optimized for scale</li>
+  </ul>
+</div>
+
+<div v-click class="mt-8 p-4 bg-green-100 dark:bg-green-900 rounded">
+  <h3>💡 Pro Tip</h3>
+  <p>Start with faster builds, evolve to independent deployments as needed</p>
 </div>
 </div>
