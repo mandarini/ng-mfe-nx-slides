@@ -14,7 +14,6 @@
 - Complex dev server coordination
   - Port management
   - Proxy configuration
-  - Service discovery
 
 - HMR configuration across MFE boundaries
   - Inconsistent hot reload behavior
