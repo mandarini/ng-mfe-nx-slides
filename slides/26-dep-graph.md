@@ -20,13 +20,6 @@
     </ul>
   </div>
 
-  <div class="p-4 border rounded">
-    <h3>🎯 Focus Areas</h3>
-    <ul>
-      <li>Dependency patterns</li>
-      <li>Circular dependencies</li>
-      <li>Optimization points</li>
-    </ul>
-  </div>
+
 </div>
 </div>
