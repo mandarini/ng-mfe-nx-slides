@@ -20,11 +20,11 @@
   </div>
 
   <div v-click class="flex items-center justify-center">
-    ```mermaid
-    graph TD
-      H[Host] --> R1[Remote 1]
-      H --> R2[Remote 2]
-      H --> R3[Remote 3]
-    ```
+    <div class="mermaid">
+      graph TD
+        H[Host] --> R1[Remote 1]
+        H --> R2[Remote 2]
+        H --> R3[Remote 3]
+    </div>
   </div>
 </div>
